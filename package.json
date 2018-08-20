@@ -1,13 +1,12 @@
-
 {
-  "name": "ezz.js",
-  "version": "2.1.0",
-  "description": "-- AWESOMENESS --",
-  "main": "ezz.js",
-  "scripts": {
-    "start": "node ezz.js"
-  },
-     "dependencies": {
+    "name": " ezz.js",
+    "version": "2.1.0",
+    "description": "-- AWESOMENESS --",
+    "main": " ezz.js",
+    "scripts": {
+      "start": "node ezz.js"
+    },
+    "dependencies": {
       "ascii-data-table": "^2.1.1",
       "axios": "0.18.0",
       "canvas": "^1.6.10",
@@ -35,9 +34,7 @@
       "youtube-info": "^1.2.0",
       "ytdl-core": "^0.20.3"
     },
-
-  },
-  "engines": {
-    "node": "8.x"
+    "engines": {
+      "node": "8.4.0"
+    }
   }
-}

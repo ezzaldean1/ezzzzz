@@ -8,7 +8,7 @@ client.on('ready', () => {
   console.log(' ezz Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Welcome To United Server",{type: 'WATCHING'})
+    client.user.setActivity("  United Server",{type: 'PLAYING'})
 	
 });
 	

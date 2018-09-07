@@ -103,5 +103,39 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
  
 
+  
+
+  const lol =
+
+[
+
+'**Welcome To ```United```**'
+
+'**Welcome To United Server **',
+
+'**Welcome To United ✨🕊️**',
+
+'**Welcome To United⭐⚡**'
+
+]
+
+client.on('guildMemberAdd', member => {
+
+const codes = member.guild.channels.get("485527500957548554");//ايدي الشات
+
+if(!codes) return;
+
+if(codes) {
+
+codes.send(  `${lol[Math.floor(Math.random() * lol.length)]}`);          
+
+}
+
+});
+
+  
+
+ 
+
    
 client.login(process.env.BOT_TOKEN);  

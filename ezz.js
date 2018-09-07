@@ -12,7 +12,7 @@ client.on('ready', () => {
 
   client.user.setStatus("Online")
 
-    client.user.setActivity(" United Server",{type: 'PLAYING'})
+    client.user.setActivity(" United Server ✨🕊️",{type: 'PLAYING'})
   
 
 });
@@ -104,18 +104,30 @@ if (message.content.startsWith(adminprefix + 'setT')) {
  
 
   
-
-  const lol =
+const lol =
 
 [
 
-'**Welcome To ```United```**'
 
-'**Welcome To United Server **',
 
-'**Welcome To United ✨🕊️**',
 
-'**Welcome To United⭐⚡**'
+
+'**Welcome To United 🎀**',
+
+'**Welcome To United **',
+
+'**Welcome To United ✨**',
+
+'**Welcome To United🕊️✨**',
+
+
+
+
+
+
+
+
+
 
 ]
 
@@ -132,6 +144,11 @@ codes.send(  `${lol[Math.floor(Math.random() * lol.length)]}`);
 }
 
 });
+
+  
+
+
+  
 
   
 

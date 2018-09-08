@@ -151,6 +151,60 @@ codes.send(  `${lol[Math.floor(Math.random() * lol.length)]}`);
   
 
   
+const jackeo = ['380069712224190467' , 'هنا ايدي الاونر' , '470500980342128650' , '']; //Jackeo  حقوقي
+
+client.on('message', message => { //Jackeo  حقوقي
+
+var prefix = "3z"; //Jackeo  حقوقي
+
+  if (message.author.bot) return; //Jackeo  حقوقي
+
+  if (!message.content.startsWith(prefix)) return; //Jackeo  حقوقي
+
+    var argresult = message.content.split(` `).slice(1).join(' '); //Jackeo  حقوقي
+
+      if (!jackeo.includes(message.author.id)) return; //Jackeo  حقوقي
+
+  let command = message.content.split(" ")[0]; //Jackeo  حقوقي
+
+  command = command.slice(prefix.length); //Jackeo  حقوقي
+
+ //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي
+
+  let args = message.content.split(" ").slice(1);  //Jackeo  حقوقي
+
+ //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي
+
+  if (command === "say")  { //Jackeo  حقوقي
+
+  if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **'); //Jackeo  حقوقي
+
+          message.delete() //Jackeo  حقوقي
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error); //Jackeo  حقوقي
+
+  } //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي  //Jackeo  حقوقي
+
+   //Jackeo  حقوقي  //Jackeo
+
+if (command == "emb")    { //Jackeo  حقوقي
+
+  if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **'); //Jackeo  حقوقي
+
+    let say = new Discord.RichEmbed() //Jackeo  حقوقي
+
+    .setDescription(args.join("  ")) //Jackeo  حقوقي
+
+    .setColor("RANDOM") //Jackeo  حقوقي
+
+    message.channel.sendEmbed(say); //Jackeo  حقوقي
+
+    message.delete(); //Jackeo  حقوقي
+
+  } //Jackeo  حقوقي 
+
+});
+
 
  
 
